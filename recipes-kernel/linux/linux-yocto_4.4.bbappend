@@ -21,6 +21,7 @@ SRC_URI += "file://lpss.cfg \
 			file://regulator.cfg \
 			file://camera.cfg \
 			file://wdt.cfg \
+			file://disable.cfg \
 			"
 
 # List of binary files
@@ -54,6 +55,7 @@ SRC_URI += " \
 	file://0025-intel-mid-split-keyboard-gpio-SFI-implementation-fro.patch \
 	file://0026-input-soc_button_array-add-debounce-parameter-to-the.patch \
 	file://0027-acpi-Workaround-for-not-registering-CAN-controller.patch \
+	file://0028-Temporarily-remove-BXT-PMIC-driver.patch \
 	"
 
 # SRC_URI += " \
